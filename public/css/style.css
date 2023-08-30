@@ -1,0 +1,68 @@
+Body {
+    background-color: coral;
+}
+h1{
+    text-align: center;
+    
+}
+#titulo{
+    margin: 10px;
+}
+#boton{
+    background-color: black;
+    border-color: black;
+    margin: 5px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+}
+
+img{
+    margin: 10px;
+}
+#imagen{
+  margin: 10px;
+  width: 100%;
+  
+}
+span{
+    margin: 8px;
+}
+nav{
+    margin: 5px;
+}
+#form {
+  width: 250px;
+
+  height: 50px;
+}
+
+#form p {
+  text-align: left;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+    text-align:left;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}

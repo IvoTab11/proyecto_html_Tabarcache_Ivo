@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Turismo Jujuy</title>
+</head>
+<body>
+    
+    <span class="d-block p-2 text-bg-primary"><h2>Atracciones turísticas de Jujuy</h2></span>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Principal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sitios.html">Turismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Que ver</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-disabled="true">Restaurantes</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="public/img/hornocal1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="public/img/hornocal2.jpg" class="d-block w-100" alt="..." height="440">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/hornocal3.jpg" class="d-block w-100" alt="..." height="440">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Serranias del Hornocal</h3>
+              <form>
+                <p class="clasificacion">
+                  <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                  --><label for="radio1">★</label><!--
+                  --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                  --><label for="radio2">★</label><!--
+                  --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                  --><label for="radio3">★</label><!--
+                  --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                  --><label for="radio4">★</label><!--
+                  --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                  --><label for="radio5">★</label>
+                </p>
+              </form>
+              <p class="card-text">Se trata de una de las excusiones imperdibles de la provincia de Jujuy. El Hornocal se encuentra a 
+                25 kilómetros de la ciudad de Humahuaca, esta serranía es una formación única, por su dimensión y cantidad decolores, 
+                los cuales varían entre blanco, ocre, amarillo, rojo, entre otros. Esta serranía puede apreciarse por completo desde el 
+                mirador ubicado al frente, a una altura de 4.344 metros sobre el nivel del mar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="public/img/salinas1.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/salinas2.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/salinas3.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Salinas Grandes</h3>
+              <form>
+                <p class="clasificacion">
+                  <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                  --><label for="radio1">★</label><!--
+                  --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                  --><label for="radio2">★</label><!--
+                  --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                  --><label for="radio3">★</label><!--
+                  --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                  --><label for="radio4">★</label><!--
+                  --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                  --><label for="radio5">★</label>
+                </p>
+              </form>
+              <p class="card-text">Geográficamente las Salinas Grandes se ubican tanto en la Provincia Jujuy como en la Provincia Salta
+                 a 3,450 msnm y es el cuarto salar más grande de Sudamérica. Por cuestiones climatológicas y visuales como recurso turístico 
+                 son más atractivas del lado jujeño, ya que están «más blancas». Históricamente en los primeros comienzos los pagos por trabajos 
+                 se pagaban con sal de allí la palabra «salario». Los traslados de sal en un comienzo se realizaban en llamas, posteriormente en 
+                 burros, y actualmente en camionetas y camiones, dependiendo el fin.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="public/img/pucara1.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="public/img/pucara2.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/pucara3.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Pucará de Tilcara</h3>
+              <form>
+                <p class="clasificacion">
+                  <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                  --><label for="radio1">★</label><!--
+                  --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                  --><label for="radio2">★</label><!--
+                  --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                  --><label for="radio3">★</label><!--
+                  --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                  --><label for="radio4">★</label><!--
+                  --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                  --><label for="radio5">★</label>
+                </p>
+              </form>
+              <p class="card-text">El término «Pucará» significa «Fortaleza o fortificación» en quechua. El Pucará de Tilcara es 
+                uno de los numerosos poblados prehispánicos que se ubican a lo largo de la Quebrada Jujeña. Este sitio arqueológico 
+                se encuentra ubicado sobre un cerro a 70 metros de altura aproximadamente en la margen izquierda del Río Grande.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="public/img/garganta1.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/garganta2.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+                <div class="carousel-item">
+                  <img src="public/img/garganta3.jpg" class="d-block w-100" alt="..." height="440">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Garganta del Diablo</h5>
+              <form>
+                <p class="clasificacion">
+                  <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                  --><label for="radio1">★</label><!--
+                  --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                  --><label for="radio2">★</label><!--
+                  --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                  --><label for="radio3">★</label><!--
+                  --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                  --><label for="radio4">★</label><!--
+                  --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                  --><label for="radio5">★</label>
+                </p>
+              </form>
+              <p class="card-text">La Garganta del Diablo es uno de los tesoros mejor guardados de Tilcara. Un antiguo sendero 
+                tilcareño nos lleva hacia allí. Las imponentes paredes de roca que se elevan hacia el cielo encauzando el Río Huasamayo, 
+                las huellas del viento muestran un pasado tempestivo y la hermosa cascada que se muestra al final del camino. Se encuentra 
+                ubicada a 5 km desde el centro del pueblo de Tilcara a través de un camino en el que se aprecian unas increíbles vistas de 
+                altura y las antiguas pircas del Cerro Negro. Hay también un bello camino de herradura. Para aquellos que prefieran ir en 
+                vehículo el camino en este caso son unos 8 km de distancia de Tilcara. Bajando hacia la izquierda nos encontramos con el 
+                lecho del Río Huasamayo. Caminando por el río, encontramos a casi medio kilometro el fin del camino la cascada de unos 18 metros de altura.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
